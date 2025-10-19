@@ -1,0 +1,66 @@
+title: Start_EN
+tags: language:en
+---
+<<character Mia happy>>
+Good morning! I'm Mia. What's your name?
+
+-> I'm {$playerName}!
+    Mia: Nice to meet you, {$playerName}! 
+    <<jump morning_choice_EN>>
+===
+
+title: Start_中文
+tags: language:zh
+---
+<<character Mia happy>>
+早上好！我是米娅。你叫什么名字？
+
+-> 我是 {$playerName}！
+    米娅：很高兴认识你，{$playerName}！
+    <<jump morning_choice_中文>>
+===
+
+title: morning_choice_EN
+---
+<<character BaoBao excited>>
+BaoBao: Woof! Let's start our day!
+
+What should we do first?
+
+-> Brush our teeth
+    <<jump brush_teeth_EN>>
+-> Make breakfast
+    <<jump make_breakfast_EN>>
+===
+
+title: brush_teeth_EN
+---
+<<character Mia brushing>>
+Mia: Brush, brush, brush! Up and down!
+
+BaoBao tries to eat the toothpaste!
+
+-> No, BaoBao! That's not food!
+    <<character BaoBao silly>>
+    BaoBao: Oops! *giggles*
+    <<unlock_sticker good_hygiene>>
+    Mia: Great job! You earned a sticker!
+    <<return_home>>
+===
+
+title: make_breakfast_EN
+---
+<<character Mia cooking>>
+Mia: Let's make something yummy!
+
+What should we cook?
+
+-> Pancakes
+    Mia: Flip, flip, flip!
+    <<unlock_sticker little_chef>>
+    <<return_home>>
+-> Congee
+    Mia: Warm and cozy!
+    <<unlock_sticker little_chef>>
+    <<return_home>>
+===
