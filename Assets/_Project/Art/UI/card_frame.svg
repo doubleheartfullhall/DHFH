@@ -1,0 +1,6 @@
+<svg width="400" height="520" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="380" height="500" rx="20" fill="#FFFCF7" stroke="#D2AA78" stroke-width="4"/>
+  <text x="200" y="260" font-family="Arial" font-size="24" fill="#28231E" text-anchor="middle">
+    Story Card Frame
+  </text>
+</svg>

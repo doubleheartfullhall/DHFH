@@ -1,0 +1,46 @@
+{
+  "stickers": [
+    {
+      "id": "good_hygiene",
+      "nameEN": "Clean Teeth",
+      "name中文": "干净的牙齿",
+      "descriptionEN": "Brushed teeth like a champ!",
+      "description中文": "像冠军一样刷牙！"
+    },
+    {
+      "id": "little_chef",
+      "nameEN": "Little Chef",
+      "name中文": "小厨师",
+      "descriptionEN": "Cooked a delicious meal!",
+      "description中文": "做了一顿美味的饭！"
+    },
+    {
+      "id": "morning_star",
+      "nameEN": "Morning Star",
+      "name中文": "晨星",
+      "descriptionEN": "Woke up with a smile!",
+      "description中文": "笑着醒来！"
+    },
+    {
+      "id": "brave_heart",
+      "nameEN": "Brave Heart",
+      "name中文": "勇敢的心",
+      "descriptionEN": "Faced fears with courage!",
+      "description中文": "勇敢面对恐惧！"
+    },
+    {
+      "id": "helping_hands",
+      "nameEN": "Helping Hands",
+      "name中文": "帮助的手",
+      "descriptionEN": "Helped someone in need!",
+      "description中文": "帮助有需要的人！"
+    },
+    {
+      "id": "curious_mind",
+      "nameEN": "Curious Mind",
+      "name中文": "好奇的心",
+      "descriptionEN": "Asked great questions!",
+      "description中文": "问了很好的问题！"
+    }
+  ]
+}
